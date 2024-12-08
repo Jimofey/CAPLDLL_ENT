@@ -1,17 +1,18 @@
 /*@!Encoding:936*/
 includes
 {
-#if TOOL_MAJOR_VERSION >= 13
-  #pragma library ("..\Modules\capldll.vmodule")
-#else
-  #if X64
-    #pragma library("..\Modules\Windows-x64\capldll.dll")
-  #else
-    #pragma library("..\Modules\Windows-x86\capldll.dll")
-  #endif
-#endif
+//#if TOOL_MAJOR_VERSION >= 13
+//  #pragma library ("..\Modules\capldll.vmodule")
+//#else
+//  #if X64
+//    #pragma library("..\Modules\Windows-x64\capldll.dll")
+//  #else
+//    #pragma library("..\Modules\Windows-x86\capldll.dll")
+//  #endif
+//#endif
   
   
+  #pragma library ("..\..\VS 2017 Project\Debug\capldll.dll")
 }
 
 variables 

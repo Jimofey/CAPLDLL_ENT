@@ -595,7 +595,7 @@ CAPL_DLL_INFO4 table[] = {
     {CDLL_VERSION_NAME, (CAPL_FARCALL)CDLL_VERSION, "", "", CAPL_DLL_CDECL, 0xabcd, CDLL_EXPORT},
 
     /* The functions below are from template for reference */
-    /**/
+    /*
     {"dllInit",           (CAPL_FARCALL)appInit,          "CAPL_DLL",
                         "This function will initialize all callback functions in the CAPLDLL",'V', 1, "D", "", {"handle"}},
     {"dllEnd",            (CAPL_FARCALL)appEnd,           "CAPL_DLL",
@@ -628,15 +628,15 @@ CAPL_DLL_INFO4 table[] = {
                         "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",  "", {"val01","val02","val03","val04","val05","val06","val07","val08","val09","val10","val11","val12","val13","val14","val15","val16","val17","val18","val19","val20","val21","val22","val23","val24","val25","val26","val27","val28","val29","val30","val31","val32","val33","val34","val35","val36","val37","val38","val39","val40","val41","val42","val43","val44","val45","val46","val47","val48","val49","val50","val51","val52","val53","val54","val55","val56","val57","val58","val59","val60","val61","val62","val63"}},
     {"dllAdd64Parameters", (CAPL_FARCALL)appAddValues64,  "CAPL_DLL", "This function will add 64 values. The return value is the result",'L', 64, {SixtyFourLongPars},
                         "", {"val01","val02","val03","val04","val05","val06","val07","val08","val09","val10","val11","val12","val13","val14","val15","val16","val17","val18","val19","val20","val21","val22","val23","val24","val25","val26","val27","val28","val29","val30","val31","val32","val33","val34","val35","val36","val37","val38","val39","val40","val41","val42","val43","val44","val45","val46","val47","val48","val49","val50","val51","val52","val53","val54","val55","val56","val57","val58","val59","val60","val61","val62","val63","val64"}},
-
+    */
     
     /* Add user functions below */
     // Refer to: file:///C:/Program%20Files/Vector%20CANoe%2015/Help01/CANoeCANalyzerHTML5/CANoeCANalyzer.htm#Topics/CANoeCANalyzer/CAPL/CAPLExportTable.htm
     // Refer to: https://zhuanlan.zhihu.com/p/97807800
     
     {"ENTCalculate",    (CAPL_FARCALL)ENT,                "CAPL_DLL",
-                        "This function calculate the randomness of input data",'V', 11, {'C', 'U', 'D', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F'}, 
-                        "\001\000\000\001\001\001\0001\001\001\001\001", {"input_array",    // unsigned char *
+                        "This function calculate the randomness of input data",'V', 11, {'C', 'U', 'D', 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128},
+                        "\001\000\000\000\000\000\000\000\000\000\000", {"input_array",    // unsigned char *
                                                                          "array_size",      // unsigned long long
                                                                          "binary",          // unsigned long
                                                                          "ent",             // double *

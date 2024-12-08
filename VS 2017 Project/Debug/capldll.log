@@ -1,0 +1,9 @@
+﻿  capldll.cpp
+  chisq.c
+  ent.c
+C:\Work\CAPLDLL_ENT-main\src\ent.c(183,15): warning C4018: “<”: 有符号/无符号不匹配
+  iso8859.c
+  randtest.c
+  正在生成代码...
+    正在创建库 .\Debug/capldll.lib 和对象 .\Debug/capldll.exp
+  capldll.vcxproj -> C:\Work\CAPLDLL_ENT-main\VS 2017 Project\Debug\capldll.dll
