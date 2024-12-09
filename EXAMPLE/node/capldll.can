@@ -25,10 +25,10 @@ variables
 
 MainTest()
 {
-  ENT();
+  TC_ENT();
 }
 
-testcase ENT()
+testcase TC_ENT()
 {
   char testText_FileName[512];
   char testText[0xFFFF];
