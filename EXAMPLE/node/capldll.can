@@ -94,19 +94,23 @@ on preStart
   writeLineEx(1,1,"Start procedure:");
   gHandle = registerCAPLDLL();
   writeLineEx(1,1,"1. DLL Registration:   Handle = %d", gHandle);
-}
-
-on start 
-{
-  writeLineEx(1,1,"2. DLL Initialization: Done!");  
   
-  /* This function will initialize all callback 
-     functions in the CAPLDLL. The handle include 
-     the register ID number of CAPL node. */
+  writeLineEx(1,1,"2. DLL Initialization: Done!"); 
   dllInit(gHandle);
-  
+
   Help();
 }
+
+//on start 
+//{
+//  writeLineEx(1,1,"2. DLL Initialization: Done!");  
+//  
+//  /* This function will initialize all callback 
+//     functions in the CAPLDLL. The handle include 
+//     the register ID number of CAPL node. */
+//  dllInit(gHandle);
+//
+//}
 
 //on key '1'
 //{
