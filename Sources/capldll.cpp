@@ -373,6 +373,7 @@ void CAPLEXPORT CAPLPASCAL appInit(uint32_t handle)
     }
 }
 
+
 void CAPLEXPORT CAPLPASCAL appEnd(uint32_t handle)
 {
     CaplInstanceData *inst = GetCaplInstanceData(handle);
@@ -465,6 +466,8 @@ void ClearAll()
     gServiceMap.clear();
 }
 
+
+/*
 void CAPLEXPORT CAPLPASCAL voidFct(void)
 {
     // do something
@@ -576,6 +579,7 @@ int32_t CAPLEXPORT CAPLPASCAL appAddValues64(int32_t val01, int32_t val02, int32
 
   return z;
 }
+*/
 
 /* Add user defined function */
 
@@ -663,6 +667,20 @@ CAPL_DLL_INFO4 table[] = {
                                                                          "chip",            // double *
                                                                          "compRate",        // double *
                                                                          "errorPct"         // double *
+                                                                        }},
+    {"ENTCalculate",    (CAPL_FARCALL)ENT_VarTest,                "CAPL_DLL",
+                        "This function calculate the randomness of input data",'V', 11, {'C', 'U', 'D', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F'},
+                        "\001\000\000\000\000\000\000\000\000\000\000", {"input_array",    // unsigned char[]
+                                                                         "array_size",      // unsigned long long
+                                                                         "binary",          // unsigned long
+                                                                         "ent",             // double
+                                                                         "chisq",           // double
+                                                                         "mean",            // double
+                                                                         "montepi",         // double
+                                                                         "scc",             // double
+                                                                         "chip",            // double
+                                                                         "compRate",        // double
+                                                                         "errorPct"         // double
                                                                         }},
 
     /* Add user functions below */

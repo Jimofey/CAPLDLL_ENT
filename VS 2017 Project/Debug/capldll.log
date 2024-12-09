@@ -1,7 +1,6 @@
 ﻿  capldll.cpp
   chisq.c
   ent.c
-C:\Work\CAPLDLL_ENT\src\ent.c(199,15): warning C4018: “<”: 有符号/无符号不匹配
   iso8859.c
   randtest.c
   正在生成代码...
