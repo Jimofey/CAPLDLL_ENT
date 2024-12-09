@@ -106,14 +106,14 @@ void ENT_SimpleTest(
         double *chip, double *compRate, double *errorPct
 )
 {
-    ent = 1.1;
-    chisq = 2.2;
-    mean = 3.3;
-    montepi = 4.4;
-    scc = 5.5;
-    chip = 6.6;
-    compRate = 7.7;
-    errorPct = 8.8
+    *ent = 1.1;
+    *chisq = 2.2;
+    *mean = 3.3;
+    *montepi = 4.4;
+    *scc = 5.5;
+    *chip = 6.6;
+    *compRate = 7.7;
+    *errorPct = 8.8;
 }
 
 void ENT(                                                                                        // int argc, char *argv[],
