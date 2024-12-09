@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<testmodule starttime="2024-12-09 14:00:48" timestamp="   1.773890" verdicts="2_basic" measurementid="fc1b8009-b419-4d3e-aa20-70b9cc49d600">
+  <testcase starttime="2024-12-09 14:00:48" timestamp="   1.773890">
+    <!-- Measurement stop forced. Test is incomplete! -->
+    <verdict time="2024-12-09 14:00:48" timestamp="   1.773890" endtime="2024-12-09 14:00:48" endtimestamp="   1.773890" result="fail" />
+    <title>ENT</title>
+    <extendedinfo type="html"><![CDATA[<b>Measurement stop forced. Test is incomplete!</b>]]></extendedinfo>
+  </testcase>
+  <verdict time="2024-12-09 14:00:48" timestamp="   1.773890" endtime="2024-12-09 14:00:48" endtimestamp="   1.773890" result="fail" />
+  <title>ENTTest</title>
+  <testlogfiles>
+  </testlogfiles>
+  <engineer>
+    <xinfo>
+      <name>Windows Login Name</name>
+      <description>jimli2</description>
+    </xinfo>
+  </engineer>
+  <testsetup>
+    <xinfo>
+      <name>Version</name>
+      <description>CANoe.CAN.LIN /pro 15.5.23.18 (SP5)</description>
+    </xinfo>
+    <xinfo>
+      <name>Configuration</name>
+      <description>C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLdll\EXAMPLE\ENTTest.cfg</description>
+    </xinfo>
+    <xinfo>
+      <name>Test Module Name</name>
+      <description>ENTTest</description>
+    </xinfo>
+    <xinfo>
+      <name>Test Module File</name>
+      <description>C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLdll\EXAMPLE\\node\capldll.can</description>
+    </xinfo>
+    <xinfo>
+      <name>Last modification of Test Module File</name>
+      <description>2024-12-09, 13:56:20</description>
+    </xinfo>
+    <xinfo>
+      <name>Windows Computer Name</name>
+      <description>SECW10NB132</description>
+    </xinfo>
+    <xinfo>
+      <name>CAPL DLL SecMgrCANoeClient</name>
+      <description>C:\Program Files\Vector CANoe 11.0\Exec32\SecMgrCANoeClient.dll</description>
+    </xinfo>
+    <xinfo>
+      <name>CAPL DLL osek_tp</name>
+      <description>C:\Program Files\Vector CANoe 15\Exec32\osek_tp.dll</description>
+    </xinfo>
+    <xinfo>
+      <name>Nodelayer Module J1939TestServiceLibraryNL</name>
+      <description>J1939 Test Service Library for CANoe, Version 15.5.23.0, c:\Program Files\Vector CANoe 15\Exec32\J1939TestServiceLibraryNL.dll</description>
+    </xinfo>
+  </testsetup>
+  <hardware name="CAN Channel Interfaces" category="CategoryCANIF">
+    <xinfoset type="device">
+      <xinfoobject type="device">
+      <xinfo key="channel">
+        <name>Channel</name>
+        <description>1</description>
+      </xinfo>
+      <xinfo key="device">
+        <name>Device</name>
+        <description>VN1630</description>
+      </xinfo>
+      <xinfo key="serialnumber">
+        <name>Serial number</name>
+        <description>29173</description>
+      </xinfo>
+      <xinfo key="driverdllversion">
+        <name>Driver DLL version</name>
+        <description>22.20.20</description>
+      </xinfo>
+      <xinfo key="driverversion">
+        <name>Driver version</name>
+        <description>22.14.12</description>
+      </xinfo>
+      </xinfoobject>
+    </xinfoset>
+  </hardware>
+  <extendedinfo type="html"><![CDATA[<b>Measurement stop forced. Test is incomplete!</b>]]></extendedinfo>
+</testmodule>
+<!--footprint="c4c94885618703370676aa498e8b6f4b" version="1"-->
