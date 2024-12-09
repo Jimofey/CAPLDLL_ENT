@@ -19,8 +19,8 @@ variables
 {
 //  byte gBufferGet[10];
 //  byte gBufferPut[10] = { 9, 8, 7, 55, 66, 77, 0, 0, 0, 0};
-//
-//  DWORD gHandle;
+
+  DWORD gHandle;
 }
 
 MainTest()
@@ -81,33 +81,33 @@ testcase ENT()
   
 }
 
-//on preStart
-//{
-//  /* This function will register the CAPLDLL.
-//     The handle is important for all function calls.  
-//     It will indent the CAPL node in the DLL */   
-//
-//  writeLineEx(1,1,"");
-//  writeLineEx(1,1,"");
-//  writeLineEx(1,1,"--------------------- CAPL-DLL Example -----------------------");
-//  writeLineEx(1,1,"");
-//  writeLineEx(1,1,"Start procedure:");
-//  gHandle = registerCAPLDLL();
-//  writeLineEx(1,1,"1. DLL Registration:   Handle = %d", gHandle);
-//}
-//
-//on start 
-//{
-//  writeLineEx(1,1,"2. DLL Initialization: Done!");  
-//  
-//  /* This function will initialize all callback 
-//     functions in the CAPLDLL. The handle include 
-//     the register ID number of CAPL node. */
-//  dllInit(gHandle);
-//  
-//  Help();
-//}
-//
+on preStart
+{
+  /* This function will register the CAPLDLL.
+     The handle is important for all function calls.  
+     It will indent the CAPL node in the DLL */   
+
+  writeLineEx(1,1,"");
+  writeLineEx(1,1,"");
+  writeLineEx(1,1,"--------------------- CAPL-DLL Example -----------------------");
+  writeLineEx(1,1,"");
+  writeLineEx(1,1,"Start procedure:");
+  gHandle = registerCAPLDLL();
+  writeLineEx(1,1,"1. DLL Registration:   Handle = %d", gHandle);
+}
+
+on start 
+{
+  writeLineEx(1,1,"2. DLL Initialization: Done!");  
+  
+  /* This function will initialize all callback 
+     functions in the CAPLDLL. The handle include 
+     the register ID number of CAPL node. */
+  dllInit(gHandle);
+  
+  Help();
+}
+
 //on key '1'
 //{
 //  writeLineEx(1,1,"");
@@ -369,24 +369,23 @@ testcase ENT()
 //  writeLineEx(1,1,"CAPL CallBack Function shows value = 0x%x",x);
 //  return 2;
 //}
-//
-//Help ()
-//{
-//  writeLineEx(1,1,""); 
-//  writeLineEx(1,1,"--------------------------------------------------------------");
-//  writeLineEx(1,1,""); 
-//  writeLineEx(1,1,"Use the keyboard to control the program");
-//  writeLineEx(1,1,"<1> Direct call of a CAPL Callback function");
-//  writeLineEx(1,1,"<2> Call of CAPL Callback Functions by the DLL");
-//  writeLineEx(1,1,"<3> Save data from CAPL to DLL memory");
-//  writeLineEx(1,1,"<4> Overwrite DLL memory from CAPL without parameter");
-//  writeLineEx(1,1,"<5> Save one data buffer from CAPL array to DLL");
-//  writeLineEx(1,1,"<6> Save two data buffer from CAPL array to DLL");
-//  writeLineEx(1,1,"<7> Calculate the value by the DLL");
-//  writeLineEx(1,1,"<8> Support of long function names");
-//  writeLineEx(1,1,"<9> Calculate the sum of many parameters by the DLL");
-//  writeLineEx(1,1,"<h> Help");
-//  writeLineEx(1,1,""); 
-//  writeLineEx(1,1,"--------------------------------------------------------------");
-//}
-//
+
+Help ()
+{
+  writeLineEx(1,1,""); 
+  writeLineEx(1,1,"--------------------------------------------------------------");
+  writeLineEx(1,1,""); 
+  writeLineEx(1,1,"Use the keyboard to control the program");
+  writeLineEx(1,1,"<1> Direct call of a CAPL Callback function");
+  writeLineEx(1,1,"<2> Call of CAPL Callback Functions by the DLL");
+  writeLineEx(1,1,"<3> Save data from CAPL to DLL memory");
+  writeLineEx(1,1,"<4> Overwrite DLL memory from CAPL without parameter");
+  writeLineEx(1,1,"<5> Save one data buffer from CAPL array to DLL");
+  writeLineEx(1,1,"<6> Save two data buffer from CAPL array to DLL");
+  writeLineEx(1,1,"<7> Calculate the value by the DLL");
+  writeLineEx(1,1,"<8> Support of long function names");
+  writeLineEx(1,1,"<9> Calculate the sum of many parameters by the DLL");
+  writeLineEx(1,1,"<h> Help");
+  writeLineEx(1,1,""); 
+  writeLineEx(1,1,"--------------------------------------------------------------");
+}
