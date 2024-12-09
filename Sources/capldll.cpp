@@ -595,9 +595,9 @@ CAPL_DLL_INFO4 table[] = {
     {CDLL_VERSION_NAME, (CAPL_FARCALL)CDLL_VERSION, "", "", CAPL_DLL_CDECL, 0xabcd, CDLL_EXPORT},
 
     /* The functions below are from template for reference */
-    /*
     {"dllInit",           (CAPL_FARCALL)appInit,          "CAPL_DLL",
                         "This function will initialize all callback functions in the CAPLDLL",'V', 1, "D", "", {"handle"}},
+    /*
     {"dllEnd",            (CAPL_FARCALL)appEnd,           "CAPL_DLL",
                         "This function will release the CAPL function handle in the CAPLDLL",'V', 1, "D", "", {"handle"}},
     {"dllSetValue",       (CAPL_FARCALL)appSetValue,      "CAPL_DLL",
