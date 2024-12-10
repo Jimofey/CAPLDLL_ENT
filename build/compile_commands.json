@@ -1,32 +1,32 @@
 [
 {
-  "directory": "C:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/build",
-  "command": "C:\\MinGW\\bin\\g++.exe -Dcapldll_EXPORTS  -g -o CMakeFiles\\capldll.dir\\C_\\Users\\jimli2\\OneDrive_-_Magna\\Documents\\06_CyberSecurity\\ENT\\CAPLDLL_ENT\\Sources\\capldll.cpp.obj -c \"C:\\Users\\jimli2\\OneDrive - Magna\\Documents\\06_CyberSecurity\\ENT\\CAPLDLL_ENT\\Sources\\capldll.cpp\"",
-  "file": "C:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp",
-  "output": "CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.obj"
+  "directory": "C:/Work/CAPLDLL_ENT/build",
+  "command": "C:\\Soft\\mingw32\\bin\\g++.exe -Dcapldll_EXPORTS  -g -o CMakeFiles\\capldll.dir\\C_\\Work\\CAPLDLL_ENT\\Sources\\capldll.cpp.obj -c C:\\Work\\CAPLDLL_ENT\\Sources\\capldll.cpp",
+  "file": "C:/Work/CAPLDLL_ENT/Sources/capldll.cpp",
+  "output": "CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.obj"
 },
 {
-  "directory": "C:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe -Dcapldll_EXPORTS  -g -o CMakeFiles\\capldll.dir\\C_\\Users\\jimli2\\OneDrive_-_Magna\\Documents\\06_CyberSecurity\\ENT\\CAPLDLL_ENT\\src\\ent.c.obj -c \"C:\\Users\\jimli2\\OneDrive - Magna\\Documents\\06_CyberSecurity\\ENT\\CAPLDLL_ENT\\src\\ent.c\"",
-  "file": "C:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c",
-  "output": "CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.obj"
+  "directory": "C:/Work/CAPLDLL_ENT/build",
+  "command": "C:\\Soft\\mingw32\\bin\\gcc.exe -Dcapldll_EXPORTS  -g -o CMakeFiles\\capldll.dir\\C_\\Work\\CAPLDLL_ENT\\src\\ent.c.obj -c C:\\Work\\CAPLDLL_ENT\\src\\ent.c",
+  "file": "C:/Work/CAPLDLL_ENT/src/ent.c",
+  "output": "CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/ent.c.obj"
 },
 {
-  "directory": "C:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe -Dcapldll_EXPORTS  -g -o CMakeFiles\\capldll.dir\\C_\\Users\\jimli2\\OneDrive_-_Magna\\Documents\\06_CyberSecurity\\ENT\\CAPLDLL_ENT\\src\\chisq.c.obj -c \"C:\\Users\\jimli2\\OneDrive - Magna\\Documents\\06_CyberSecurity\\ENT\\CAPLDLL_ENT\\src\\chisq.c\"",
-  "file": "C:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c",
-  "output": "CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.obj"
+  "directory": "C:/Work/CAPLDLL_ENT/build",
+  "command": "C:\\Soft\\mingw32\\bin\\gcc.exe -Dcapldll_EXPORTS  -g -o CMakeFiles\\capldll.dir\\C_\\Work\\CAPLDLL_ENT\\src\\chisq.c.obj -c C:\\Work\\CAPLDLL_ENT\\src\\chisq.c",
+  "file": "C:/Work/CAPLDLL_ENT/src/chisq.c",
+  "output": "CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/chisq.c.obj"
 },
 {
-  "directory": "C:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe -Dcapldll_EXPORTS  -g -o CMakeFiles\\capldll.dir\\C_\\Users\\jimli2\\OneDrive_-_Magna\\Documents\\06_CyberSecurity\\ENT\\CAPLDLL_ENT\\src\\iso8859.c.obj -c \"C:\\Users\\jimli2\\OneDrive - Magna\\Documents\\06_CyberSecurity\\ENT\\CAPLDLL_ENT\\src\\iso8859.c\"",
-  "file": "C:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c",
-  "output": "CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.obj"
+  "directory": "C:/Work/CAPLDLL_ENT/build",
+  "command": "C:\\Soft\\mingw32\\bin\\gcc.exe -Dcapldll_EXPORTS  -g -o CMakeFiles\\capldll.dir\\C_\\Work\\CAPLDLL_ENT\\src\\iso8859.c.obj -c C:\\Work\\CAPLDLL_ENT\\src\\iso8859.c",
+  "file": "C:/Work/CAPLDLL_ENT/src/iso8859.c",
+  "output": "CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/iso8859.c.obj"
 },
 {
-  "directory": "C:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe -Dcapldll_EXPORTS  -g -o CMakeFiles\\capldll.dir\\C_\\Users\\jimli2\\OneDrive_-_Magna\\Documents\\06_CyberSecurity\\ENT\\CAPLDLL_ENT\\src\\randtest.c.obj -c \"C:\\Users\\jimli2\\OneDrive - Magna\\Documents\\06_CyberSecurity\\ENT\\CAPLDLL_ENT\\src\\randtest.c\"",
-  "file": "C:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c",
-  "output": "CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.obj"
+  "directory": "C:/Work/CAPLDLL_ENT/build",
+  "command": "C:\\Soft\\mingw32\\bin\\gcc.exe -Dcapldll_EXPORTS  -g -o CMakeFiles\\capldll.dir\\C_\\Work\\CAPLDLL_ENT\\src\\randtest.c.obj -c C:\\Work\\CAPLDLL_ENT\\src\\randtest.c",
+  "file": "C:/Work/CAPLDLL_ENT/src/randtest.c",
+  "output": "CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/randtest.c.obj"
 }
 ]

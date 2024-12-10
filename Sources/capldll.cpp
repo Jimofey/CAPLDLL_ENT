@@ -581,23 +581,20 @@ int32_t CAPLEXPORT CAPLPASCAL appAddValues64(int32_t val01, int32_t val02, int32
 }
 */
 
+unsigned char *input_array;
+size_t array_size;
+unsigned long binary;
+double *ent, *chisq, *mean, *montepi, *scc;
+double *chip, *compRate, *errorPct;
+
 /* Add user defined function */
 void CAPLEXPORT CAPLPASCAL ENT_VarTest1(
     unsigned char *input_array, size_t array_size, unsigned long binary,
-    long *ent, long *chisq, long *mean, long *montepi, long *scc,
-    long *chip, long *compRate, long *errorPct
+    double *ent, double *chisq, double *mean, double *montepi, double *scc,
+    double *chip, double *compRate, double *errorPct
 
 )
 {
-    long dataBuff = 1;
-    ent = &dataBuff;
-    chisq = &dataBuff;
-    mean = &dataBuff;
-    montepi = &dataBuff;
-    scc = &dataBuff;
-    chip = &dataBuff;
-    compRate = &dataBuff;
-    errorPct = &dataBuff;
 
     *ent = 1;
     *chisq = 2;
@@ -607,7 +604,6 @@ void CAPLEXPORT CAPLPASCAL ENT_VarTest1(
     *chip = 6;
     *compRate = 7;
     *errorPct = 8;
-
 
 }
 
@@ -681,7 +677,7 @@ CAPL_DLL_INFO4 table[] = {
                                                                         }},
     
     {"ENTVar",    (CAPL_FARCALL)ENT_VarTest1,                "CAPL_DLL",
-                        "This function calculate the randomness of input data",'V', 11, {'C', 'U', 'D', 'L'-128, 'L'-128, 'L'-128, 'L'-128, 'L'-128, 'L'-128, 'L'-128, 'L'-128},
+                        "This function calculate the randomness of input data",'V', 11, {'C', 'U', 'D', 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128},
                         "\001\000\000\000\000\000\000\000\000\000\000", {"input_array",     // unsigned char *
                                                                          "array_size",      // unsigned long long
                                                                          "binary",          // unsigned long

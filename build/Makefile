@@ -56,10 +56,10 @@ RM = C:\Soft\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\CMakeProject"
+CMAKE_SOURCE_DIR = C:\Work\CAPLDLL_ENT\CMakeProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build"
+CMAKE_BINARY_DIR = C:\Work\CAPLDLL_ENT\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build\CMakeFiles" "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Work\CAPLDLL_ENT\build\CMakeFiles C:\Work\CAPLDLL_ENT\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Work\CAPLDLL_ENT\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,125 +128,125 @@ capldll/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/build
 .PHONY : capldll/fast
 
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.obj: C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.obj
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.obj
+C_/Work/CAPLDLL_ENT/Sources/capldll.obj: C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.obj
+.PHONY : C_/Work/CAPLDLL_ENT/Sources/capldll.obj
 
 # target to build an object file
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.obj
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.obj
+C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.obj
+.PHONY : C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.obj
 
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.i: C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.i
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.i
+C_/Work/CAPLDLL_ENT/Sources/capldll.i: C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.i
+.PHONY : C_/Work/CAPLDLL_ENT/Sources/capldll.i
 
 # target to preprocess a source file
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.i
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.i
+C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.i
+.PHONY : C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.i
 
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.s: C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.s
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.s
+C_/Work/CAPLDLL_ENT/Sources/capldll.s: C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.s
+.PHONY : C_/Work/CAPLDLL_ENT/Sources/capldll.s
 
 # target to generate assembly for a file
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.s
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.s
+C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.s
+.PHONY : C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.s
 
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.obj: C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.obj
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.obj
+C_/Work/CAPLDLL_ENT/src/chisq.obj: C_/Work/CAPLDLL_ENT/src/chisq.c.obj
+.PHONY : C_/Work/CAPLDLL_ENT/src/chisq.obj
 
 # target to build an object file
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.obj
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.obj
+C_/Work/CAPLDLL_ENT/src/chisq.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/chisq.c.obj
+.PHONY : C_/Work/CAPLDLL_ENT/src/chisq.c.obj
 
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.i: C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.i
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.i
+C_/Work/CAPLDLL_ENT/src/chisq.i: C_/Work/CAPLDLL_ENT/src/chisq.c.i
+.PHONY : C_/Work/CAPLDLL_ENT/src/chisq.i
 
 # target to preprocess a source file
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.i
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.i
+C_/Work/CAPLDLL_ENT/src/chisq.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/chisq.c.i
+.PHONY : C_/Work/CAPLDLL_ENT/src/chisq.c.i
 
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.s: C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.s
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.s
+C_/Work/CAPLDLL_ENT/src/chisq.s: C_/Work/CAPLDLL_ENT/src/chisq.c.s
+.PHONY : C_/Work/CAPLDLL_ENT/src/chisq.s
 
 # target to generate assembly for a file
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.s
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.s
+C_/Work/CAPLDLL_ENT/src/chisq.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/chisq.c.s
+.PHONY : C_/Work/CAPLDLL_ENT/src/chisq.c.s
 
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.obj: C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.obj
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.obj
+C_/Work/CAPLDLL_ENT/src/ent.obj: C_/Work/CAPLDLL_ENT/src/ent.c.obj
+.PHONY : C_/Work/CAPLDLL_ENT/src/ent.obj
 
 # target to build an object file
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.obj
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.obj
+C_/Work/CAPLDLL_ENT/src/ent.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/ent.c.obj
+.PHONY : C_/Work/CAPLDLL_ENT/src/ent.c.obj
 
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.i: C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.i
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.i
+C_/Work/CAPLDLL_ENT/src/ent.i: C_/Work/CAPLDLL_ENT/src/ent.c.i
+.PHONY : C_/Work/CAPLDLL_ENT/src/ent.i
 
 # target to preprocess a source file
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.i
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.i
+C_/Work/CAPLDLL_ENT/src/ent.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/ent.c.i
+.PHONY : C_/Work/CAPLDLL_ENT/src/ent.c.i
 
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.s: C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.s
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.s
+C_/Work/CAPLDLL_ENT/src/ent.s: C_/Work/CAPLDLL_ENT/src/ent.c.s
+.PHONY : C_/Work/CAPLDLL_ENT/src/ent.s
 
 # target to generate assembly for a file
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.s
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.s
+C_/Work/CAPLDLL_ENT/src/ent.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/ent.c.s
+.PHONY : C_/Work/CAPLDLL_ENT/src/ent.c.s
 
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.obj: C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.obj
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.obj
+C_/Work/CAPLDLL_ENT/src/iso8859.obj: C_/Work/CAPLDLL_ENT/src/iso8859.c.obj
+.PHONY : C_/Work/CAPLDLL_ENT/src/iso8859.obj
 
 # target to build an object file
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.obj
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.obj
+C_/Work/CAPLDLL_ENT/src/iso8859.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/iso8859.c.obj
+.PHONY : C_/Work/CAPLDLL_ENT/src/iso8859.c.obj
 
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.i: C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.i
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.i
+C_/Work/CAPLDLL_ENT/src/iso8859.i: C_/Work/CAPLDLL_ENT/src/iso8859.c.i
+.PHONY : C_/Work/CAPLDLL_ENT/src/iso8859.i
 
 # target to preprocess a source file
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.i
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.i
+C_/Work/CAPLDLL_ENT/src/iso8859.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/iso8859.c.i
+.PHONY : C_/Work/CAPLDLL_ENT/src/iso8859.c.i
 
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.s: C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.s
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.s
+C_/Work/CAPLDLL_ENT/src/iso8859.s: C_/Work/CAPLDLL_ENT/src/iso8859.c.s
+.PHONY : C_/Work/CAPLDLL_ENT/src/iso8859.s
 
 # target to generate assembly for a file
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.s
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.s
+C_/Work/CAPLDLL_ENT/src/iso8859.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/iso8859.c.s
+.PHONY : C_/Work/CAPLDLL_ENT/src/iso8859.c.s
 
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.obj: C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.obj
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.obj
+C_/Work/CAPLDLL_ENT/src/randtest.obj: C_/Work/CAPLDLL_ENT/src/randtest.c.obj
+.PHONY : C_/Work/CAPLDLL_ENT/src/randtest.obj
 
 # target to build an object file
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.obj
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.obj
+C_/Work/CAPLDLL_ENT/src/randtest.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/randtest.c.obj
+.PHONY : C_/Work/CAPLDLL_ENT/src/randtest.c.obj
 
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.i: C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.i
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.i
+C_/Work/CAPLDLL_ENT/src/randtest.i: C_/Work/CAPLDLL_ENT/src/randtest.c.i
+.PHONY : C_/Work/CAPLDLL_ENT/src/randtest.i
 
 # target to preprocess a source file
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.i
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.i
+C_/Work/CAPLDLL_ENT/src/randtest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/randtest.c.i
+.PHONY : C_/Work/CAPLDLL_ENT/src/randtest.c.i
 
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.s: C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.s
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.s
+C_/Work/CAPLDLL_ENT/src/randtest.s: C_/Work/CAPLDLL_ENT/src/randtest.c.s
+.PHONY : C_/Work/CAPLDLL_ENT/src/randtest.s
 
 # target to generate assembly for a file
-C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.s
-.PHONY : C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.s
+C_/Work/CAPLDLL_ENT/src/randtest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/randtest.c.s
+.PHONY : C_/Work/CAPLDLL_ENT/src/randtest.c.s
 
 # Help Target
 help:
@@ -257,21 +257,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... capldll
-	@echo ... C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.obj
-	@echo ... C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.i
-	@echo ... C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.s
-	@echo ... C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.obj
-	@echo ... C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.i
-	@echo ... C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.s
-	@echo ... C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.obj
-	@echo ... C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.i
-	@echo ... C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.s
-	@echo ... C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.obj
-	@echo ... C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.i
-	@echo ... C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.s
-	@echo ... C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.obj
-	@echo ... C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.i
-	@echo ... C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.s
+	@echo ... C_/Work/CAPLDLL_ENT/Sources/capldll.obj
+	@echo ... C_/Work/CAPLDLL_ENT/Sources/capldll.i
+	@echo ... C_/Work/CAPLDLL_ENT/Sources/capldll.s
+	@echo ... C_/Work/CAPLDLL_ENT/src/chisq.obj
+	@echo ... C_/Work/CAPLDLL_ENT/src/chisq.i
+	@echo ... C_/Work/CAPLDLL_ENT/src/chisq.s
+	@echo ... C_/Work/CAPLDLL_ENT/src/ent.obj
+	@echo ... C_/Work/CAPLDLL_ENT/src/ent.i
+	@echo ... C_/Work/CAPLDLL_ENT/src/ent.s
+	@echo ... C_/Work/CAPLDLL_ENT/src/iso8859.obj
+	@echo ... C_/Work/CAPLDLL_ENT/src/iso8859.i
+	@echo ... C_/Work/CAPLDLL_ENT/src/iso8859.s
+	@echo ... C_/Work/CAPLDLL_ENT/src/randtest.obj
+	@echo ... C_/Work/CAPLDLL_ENT/src/randtest.i
+	@echo ... C_/Work/CAPLDLL_ENT/src/randtest.s
 .PHONY : help
 
 

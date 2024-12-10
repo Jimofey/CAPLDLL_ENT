@@ -53,10 +53,10 @@ RM = C:\Soft\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\CMakeProject"
+CMAKE_SOURCE_DIR = C:\Work\CAPLDLL_ENT\CMakeProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build"
+CMAKE_BINARY_DIR = C:\Work\CAPLDLL_ENT\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +84,14 @@ clean: CMakeFiles/capldll.dir/clean
 CMakeFiles/capldll.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\capldll.dir\build.make CMakeFiles/capldll.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build\CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target capldll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Work\CAPLDLL_ENT\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target capldll"
 .PHONY : CMakeFiles/capldll.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/capldll.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build\CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Work\CAPLDLL_ENT\build\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/capldll.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Work\CAPLDLL_ENT\build\CMakeFiles 0
 .PHONY : CMakeFiles/capldll.dir/rule
 
 # Convenience name for target.
