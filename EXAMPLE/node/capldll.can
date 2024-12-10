@@ -11,8 +11,7 @@ includes
 //  #endif
 //#endif
   
-  
-  #pragma library ("..\..\VS 2017 Project\Debug\capldll.dll")
+  #pragma library ("..\..\build\capldll.dll")
 }
 
 variables 
@@ -59,24 +58,24 @@ testcase TC_ENT()
   ENTCalculate(testText, elcount(testText), 0, ent, chisq, mean, montepi, scc, chip, compRate, errorPct);
   
   
-  write("Entropy = %f bits per %s.\n", ent, samp);
-  write("\nOptimum compression would reduce the size\n");
-  write("of this %ld %s file by %d percent.\n\n", elcount(testText), samp, compRate);
-  write("Chi square distribution for %ld samples is %1.2f, and randomly\n", elcount(testText), chisq);
+  write("Entropy = %f bits per %s.", ent, samp);
+  write("\nOptimum compression would reduce the size");
+  write("of this %ld %s file by %d percent.\n", elcount(testText), samp, compRate);
+  write("Chi square distribution for %ld samples is %1.2f, and randomly", elcount(testText), chisq);
   if (chip < 0.0001){
-    write("would exceed this value less than 0.01 percent of the times.\n\n");
+    write("would exceed this value less than 0.01 percent of the times.\n");
   } else if (chip > 0.9999){
-    write("would exceed this value more than than 99.99 percent of the times.\n\n");
+    write("would exceed this value more than than 99.99 percent of the times.\n");
   } else {
-    write("would exceed this value %1.2f percent of the times.\n\n", chip * 100);
+    write("would exceed this value %1.2f percent of the times.\n", chip * 100);
   }
-  write("Arithmetic mean value of data %ss is %1.4f (%.1f = random).\n", samp, mean, binary ? 0.5 : 127.5);
-  write("Monte Carlo value for Pi is %1.9f (error %1.2f percent).\n", montepi, errorPct);
+  write("Arithmetic mean value of data %ss is %1.4f (%.1f = random).", samp, mean, binary ? 0.5 : 127.5);
+  write("Monte Carlo value for Pi is %1.9f (error %1.2f percent).", montepi, errorPct);
   write("Serial correlation coefficient is ");
   if (scc >= -99999){
-    write("%1.6f (totally uncorrelated = 0.0).\n", scc);
+    write("%1.6f (totally uncorrelated = 0.0).", scc);
   } else {
-    write("undefined (all values equal!).\n");
+    write("undefined (all values equal!).");
   }
   
 }

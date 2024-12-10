@@ -46,7 +46,7 @@
 #endif
 
 /* User defined function includes */
-#include "src/ent.h"
+#include "../src/ent.h"
 
 
 

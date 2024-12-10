@@ -1,10 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
 
-#project(CaplDllExample VERSION 0.0)
-project(capldll VERSION 0.0)
+project(CaplDllExample VERSION 0.0)
+#project(capldll VERSION 0.0)
 
-add_library(capldll SHARED ../Sources/capldll.cpp)
-
+add_library(capldll SHARED ../Sources/capldll.cpp ../src/ent.c ../src/chisq.c ../src/iso8859.c ../src/randtest.c)
 
 if (WIN32)
   # Do not use the library file name prefix 'lib' on windows platforms (x86 and x64).
