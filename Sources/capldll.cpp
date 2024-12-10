@@ -654,7 +654,7 @@ CAPL_DLL_INFO4 table[] = {
                                                                          "errorPct"         // double *
                                                                         }},
     */
-    {"ENTCalculate",    (CAPL_FARCALL)ENT_SimpleTest,                "CAPL_DLL",
+    {"ENTSimple",    (CAPL_FARCALL)ENT_SimpleTest,                "CAPL_DLL",
                         "This function calculate the randomness of input data",'V', 11, {'C', 'U', 'D', 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128},
                         "\001\000\000\000\000\000\000\000\000\000\000", {"input_array",    // unsigned char *
                                                                          "array_size",      // unsigned long long
@@ -668,7 +668,7 @@ CAPL_DLL_INFO4 table[] = {
                                                                          "compRate",        // double *
                                                                          "errorPct"         // double *
                                                                         }},
-    {"ENTCalculate",    (CAPL_FARCALL)ENT_VarTest,                "CAPL_DLL",
+    {"ENTVar",    (CAPL_FARCALL)ENT_VarTest,                "CAPL_DLL",
                         "This function calculate the randomness of input data",'V', 11, {'C', 'U', 'D', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F'},
                         "\001\000\000\000\000\000\000\000\000\000\000", {"input_array",    // unsigned char[]
                                                                          "array_size",      // unsigned long long
