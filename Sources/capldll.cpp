@@ -582,7 +582,34 @@ int32_t CAPLEXPORT CAPLPASCAL appAddValues64(int32_t val01, int32_t val02, int32
 */
 
 /* Add user defined function */
+void CAPLEXPORT CAPLPASCAL ENT_VarTest1(
+    unsigned char *input_array, size_t array_size, unsigned long binary,
+    long *ent, long *chisq, long *mean, long *montepi, long *scc,
+    long *chip, long *compRate, long *errorPct
 
+)
+{
+    long dataBuff = 1;
+    ent = &dataBuff;
+    chisq = &dataBuff;
+    mean = &dataBuff;
+    montepi = &dataBuff;
+    scc = &dataBuff;
+    chip = &dataBuff;
+    compRate = &dataBuff;
+    errorPct = &dataBuff;
+
+    *ent = 1;
+    *chisq = 2;
+    *mean = 3;
+    *montepi = 4;
+    *scc = 5;
+    *chip = 6;
+    *compRate = 7;
+    *errorPct = 8;
+
+
+}
 
 
 
@@ -640,11 +667,11 @@ CAPL_DLL_INFO4 table[] = {
     
     {"ENTCalculate",    (CAPL_FARCALL)ENT,                "CAPL_DLL",
                         "This function calculate the randomness of input data",'V', 11, {'C', 'U', 'D', 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128},
-                        "\001\000\000\000\000\000\000\000\000\000\000", {"input_array",     // unsigned char []
+                        "\001\000\000\000\000\000\000\000\000\000\000", {"input_array",     // unsigned char *
                                                                          "array_size",      // unsigned long long
                                                                          "binary",          // unsigned long
                                                                          "ent",             // double *
-                                                                         "chi128sq",           // double *
+                                                                         "chi128sq",        // double *
                                                                          "mean",            // double *
                                                                          "montepi",         // double *
                                                                          "scc",             // double *
@@ -653,8 +680,8 @@ CAPL_DLL_INFO4 table[] = {
                                                                          "errorPct"         // double *
                                                                         }},
     
-    {"ENTSimple",    (CAPL_FARCALL)ENT_SimpleTest,                "CAPL_DLL",
-                        "This function calculate the randomness of input data",'V', 11, {'C', 'U', 'D', 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128},
+    {"ENTVar",    (CAPL_FARCALL)ENT_VarTest1,                "CAPL_DLL",
+                        "This function calculate the randomness of input data",'V', 11, {'C', 'U', 'D', 'L'-128, 'L'-128, 'L'-128, 'L'-128, 'L'-128, 'L'-128, 'L'-128, 'L'-128},
                         "\001\000\000\000\000\000\000\000\000\000\000", {"input_array",     // unsigned char *
                                                                          "array_size",      // unsigned long long
                                                                          "binary",          // unsigned long
@@ -666,20 +693,6 @@ CAPL_DLL_INFO4 table[] = {
                                                                          "chip",            // double *
                                                                          "compRate",        // double *
                                                                          "errorPct"         // double *
-                                                                        }},
-    {"ENTVar",    (CAPL_FARCALL)ENT_VarTest,                "CAPL_DLL",
-                        "This function calculate the randomness of input data",'V', 11, {'C', 'U', 'D', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F'},
-                        "\001\000\000\000\000\000\000\000\000\000\000", {"input_array",     // unsigned char[]
-                                                                         "array_size",      // unsigned long long
-                                                                         "binary",          // unsigned long
-                                                                         "ent",             // double
-                                                                         "chisq",           // double
-                                                                         "mean",            // double
-                                                                         "montepi",         // double
-                                                                         "scc",             // double
-                                                                         "chip",            // double
-                                                                         "compRate",        // double
-                                                                         "errorPct"         // double
                                                                         }},
 
     /* Add user functions below */

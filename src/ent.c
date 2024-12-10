@@ -100,12 +100,10 @@ static int getopt(int argc, char *argv[], char *opts)
  * scc            + OUT       +  Serial-Correlation                 //   scc >= -99999, else all values 
  * ---------------+-----------+-------------------------------------+------------------------------------*/
 
-
-
-void ENT_SimpleTest(
-        unsigned char *input_array, size_t array_size, unsigned long binary,
-        double *ent, double *chisq, double *mean, double *montepi, double *scc,
-        double *chip, double *compRate, double *errorPct
+void ENT_VarTest(
+    unsigned char *input_array, size_t array_size, unsigned long binary,
+    double *ent, double *chisq, double *mean, double *montepi, double *scc,
+    double *chip, double *compRate, double *errorPct
 )
 {
     *ent = 1.1;
@@ -118,28 +116,10 @@ void ENT_SimpleTest(
     *errorPct = 8.8;
 }
 
-void ENT_VarTest(
-    unsigned char input_array[], size_t array_size, unsigned long binary,
-    double ent, double chisq, double mean, double montepi, double scc,
-    double chip, double compRate, double errorPct
-)
-{
-    ent = 1.1;
-    chisq = 2.2;
-    mean = 3.3;
-    montepi = 4.4;
-    scc = 5.5;
-    chip = 6.6;
-    compRate = 7.7;
-    errorPct = 8.8;
-}
-
-
-
 void ENT(                                                                                // int argc, char *argv[],
-        unsigned char input_array[], size_t array_size, unsigned long binary,                     // IN
-        double *ent, double *chisq, double *mean, double *montepi, double *scc,                  // OUT
-        double *chip, double *compRate, double *errorPct                                         // Additional
+        unsigned char *input_array, size_t array_size, unsigned long binary,             // IN
+        double *ent, double *chisq, double *mean, double *montepi, double *scc,          // OUT
+        double *chip, double *compRate, double *errorPct                                 // Additional
 )
 {
     size_t i;

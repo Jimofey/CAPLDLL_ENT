@@ -1,3 +1,11 @@
 {
-    "cmake.sourceDirectory": "C:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/CMakeProject"
+    "cmake.sourceDirectory": "C:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/CMakeProject",
+    "files.associations": {
+        "new": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "format": "cpp",
+        "initializer_list": "cpp",
+        "span": "cpp"
+    }
 }

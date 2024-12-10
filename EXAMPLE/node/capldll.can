@@ -35,7 +35,7 @@ testcase TC_ENT()
   char sampByte[5] = "byte";
   char samp[5];
   byte binary;
-  double ent, chisq, mean, montepi, scc, chip, compRate, errorPct;
+  long ent, chisq, mean, montepi, scc, chip, compRate, errorPct;
   
   getAbsFilePath("randomValue.ini", testText_FileName, elCount(testText_FileName));
   setFilePath(testText_FileName , 2);
