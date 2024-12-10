@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(CaplDllExample VERSION 0.0)
+#project(CaplDllExample VERSION 0.0)
+project(capldll VERSION 0.0)
 
 add_library(capldll SHARED ../Sources/capldll.cpp)
 

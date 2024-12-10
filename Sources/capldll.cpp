@@ -638,14 +638,13 @@ CAPL_DLL_INFO4 table[] = {
     // Refer to: file:///C:/Program%20Files/Vector%20CANoe%2015/Help01/CANoeCANalyzerHTML5/CANoeCANalyzer.htm#Topics/CANoeCANalyzer/CAPL/CAPLExportTable.htm
     // Refer to: https://zhuanlan.zhihu.com/p/97807800
     
-    /*
     {"ENTCalculate",    (CAPL_FARCALL)ENT,                "CAPL_DLL",
                         "This function calculate the randomness of input data",'V', 11, {'C', 'U', 'D', 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128},
-                        "\001\000\000\000\000\000\000\000\000\000\000", {"input_array",    // unsigned char *
+                        "\001\000\000\000\000\000\000\000\000\000\000", {"input_array",     // unsigned char []
                                                                          "array_size",      // unsigned long long
                                                                          "binary",          // unsigned long
                                                                          "ent",             // double *
-                                                                         "chisq",           // double *
+                                                                         "chi128sq",           // double *
                                                                          "mean",            // double *
                                                                          "montepi",         // double *
                                                                          "scc",             // double *
@@ -653,10 +652,10 @@ CAPL_DLL_INFO4 table[] = {
                                                                          "compRate",        // double *
                                                                          "errorPct"         // double *
                                                                         }},
-    */
+    
     {"ENTSimple",    (CAPL_FARCALL)ENT_SimpleTest,                "CAPL_DLL",
                         "This function calculate the randomness of input data",'V', 11, {'C', 'U', 'D', 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128},
-                        "\001\000\000\000\000\000\000\000\000\000\000", {"input_array",    // unsigned char *
+                        "\001\000\000\000\000\000\000\000\000\000\000", {"input_array",     // unsigned char *
                                                                          "array_size",      // unsigned long long
                                                                          "binary",          // unsigned long
                                                                          "ent",             // double *
@@ -670,7 +669,7 @@ CAPL_DLL_INFO4 table[] = {
                                                                         }},
     {"ENTVar",    (CAPL_FARCALL)ENT_VarTest,                "CAPL_DLL",
                         "This function calculate the randomness of input data",'V', 11, {'C', 'U', 'D', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F'},
-                        "\001\000\000\000\000\000\000\000\000\000\000", {"input_array",    // unsigned char[]
+                        "\001\000\000\000\000\000\000\000\000\000\000", {"input_array",     // unsigned char[]
                                                                          "array_size",      // unsigned long long
                                                                          "binary",          // unsigned long
                                                                          "ent",             // double
