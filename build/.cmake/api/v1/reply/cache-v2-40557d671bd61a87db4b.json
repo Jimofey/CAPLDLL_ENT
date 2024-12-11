@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/MinGW/bin/g++.exe"
 		},
 		{
@@ -299,10 +299,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/MinGW/bin/gcc.exe"
 		},
 		{
@@ -671,7 +671,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/CaplDllExample"
+			"value" : "C:/Program Files (x86)/ENT_Calculator"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -891,7 +891,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "CaplDllExample"
+			"value" : "ENT_Calculator"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -903,7 +903,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "0.0"
+			"value" : "1.0"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_MAJOR",
@@ -915,7 +915,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "0"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_MINOR",
@@ -1346,7 +1346,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "CaplDllExample_BINARY_DIR",
+			"name" : "ENT_Calculator_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1358,7 +1358,7 @@
 			"value" : "C:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/build"
 		},
 		{
-			"name" : "CaplDllExample_IS_TOP_LEVEL",
+			"name" : "ENT_Calculator_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1370,7 +1370,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "CaplDllExample_SOURCE_DIR",
+			"name" : "ENT_Calculator_SOURCE_DIR",
 			"properties" : 
 			[
 				{

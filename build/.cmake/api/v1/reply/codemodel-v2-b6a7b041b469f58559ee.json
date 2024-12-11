@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "CaplDllExample",
+					"name" : "ENT_Calculator",
 					"targetIndexes" : 
 					[
 						0
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "capldll::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-capldll-Debug-793663b9548221e4acdc.json",
+					"jsonFile" : "target-capldll-Debug-20dd894fd9132c0b5acc.json",
 					"name" : "capldll",
 					"projectIndex" : 0
 				}

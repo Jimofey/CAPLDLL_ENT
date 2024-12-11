@@ -2,13 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "capldll.dll"
+			"path" : "ENT_Calculator.dll"
 		},
 		{
-			"path" : "libcapldll.dll.a"
+			"path" : "libENT_Calculator.dll.a"
 		},
 		{
-			"path" : "capldll.pdb"
+			"path" : "ENT_Calculator.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -30,7 +30,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 5,
 				"parent" : 0
 			}
 		]
@@ -96,7 +96,7 @@
 		"language" : "CXX"
 	},
 	"name" : "capldll",
-	"nameOnDisk" : "capldll.dll",
+	"nameOnDisk" : "ENT_Calculator.dll",
 	"paths" : 
 	{
 		"build" : ".",

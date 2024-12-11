@@ -720,9 +720,9 @@ CAPL_DLL_INFO4 table[] = {
     {CDLL_VERSION_NAME, (CAPL_FARCALL)CDLL_VERSION, "", "", CAPL_DLL_CDECL, 0xabcd, CDLL_EXPORT},
 
     /* The functions below are from template for reference */
+    /*
     {"dllInit",           (CAPL_FARCALL)appInit,          "CAPL_DLL",
                         "This function will initialize all callback functions in the CAPLDLL",'V', 1, "D", "", {"handle"}},
-    /*
     {"dllEnd",            (CAPL_FARCALL)appEnd,           "CAPL_DLL",
                         "This function will release the CAPL function handle in the CAPLDLL",'V', 1, "D", "", {"handle"}},
     {"dllSetValue",       (CAPL_FARCALL)appSetValue,      "CAPL_DLL",
@@ -788,39 +788,39 @@ CAPL_DLL_INFO4 table[] = {
                                                  "array_size",      // unsigned long long
                                                  "binary",          // unsigned long
                                                                         }},
-    {"ENT_mean",      (CAPL_FARCALL)ENT_mean,           "CAPL_DLL",
-                    "This function calculate the mean of input data",'F', 3, {'C', 'U', 'D'},
-                    "\001\000\000",             {"input_array",     // unsigned char *
+    {"ENT_mean",        (CAPL_FARCALL)ENT_mean,         "CAPL_DLL",
+                        "This function calculate the mean of input data",'F', 3, {'C', 'U', 'D'},
+                        "\001\000\000",         {"input_array",     // unsigned char *
                                                  "array_size",      // unsigned long long
                                                  "binary",          // unsigned long
                                                                         }},
-    {"ENT_montepi",      (CAPL_FARCALL)ENT_montepi,     "CAPL_DLL",
-                    "This function calculate the montepi of input data",'F', 3, {'C', 'U', 'D'},
-                    "\001\000\000",             {"input_array",     // unsigned char *
+    {"ENT_montepi",     (CAPL_FARCALL)ENT_montepi,      "CAPL_DLL",
+                        "This function calculate the montepi of input data",'F', 3, {'C', 'U', 'D'},
+                        "\001\000\000",         {"input_array",     // unsigned char *
                                                  "array_size",      // unsigned long long
                                                  "binary",          // unsigned long
                                                                         }},
-    {"ENT_scc",      (CAPL_FARCALL)ENT_scc,             "CAPL_DLL",
-                    "This function calculate the scc of input data",'F', 3, {'C', 'U', 'D'},
-                    "\001\000\000",             {"input_array",     // unsigned char *
+    {"ENT_scc",         (CAPL_FARCALL)ENT_scc,          "CAPL_DLL",
+                        "This function calculate the scc of input data",'F', 3, {'C', 'U', 'D'},
+                        "\001\000\000",         {"input_array",     // unsigned char *
                                                  "array_size",      // unsigned long long
                                                  "binary",          // unsigned long
                                                                         }},
-    {"ENT_chip",      (CAPL_FARCALL)ENT_chip,           "CAPL_DLL",
-                    "This function calculate the chip of input data",'F', 3, {'C', 'U', 'D'},
-                    "\001\000\000",             {"input_array",     // unsigned char *
+    {"ENT_chip",        (CAPL_FARCALL)ENT_chip,         "CAPL_DLL",
+                        "This function calculate the chip of input data",'F', 3, {'C', 'U', 'D'},
+                        "\001\000\000",         {"input_array",     // unsigned char *
                                                  "array_size",      // unsigned long long
                                                  "binary",          // unsigned long
                                                                         }},
-    {"ENT_compRate",      (CAPL_FARCALL)ENT_compRate,   "CAPL_DLL",
-                    "This function calculate the compRate of input data",'D', 3, {'C', 'U', 'D'},
-                    "\001\000\000",             {"input_array",     // unsigned char *
+    {"ENT_compRate",    (CAPL_FARCALL)ENT_compRate,     "CAPL_DLL",
+                        "This function calculate the compRate of input data",'D', 3, {'C', 'U', 'D'},
+                        "\001\000\000",         {"input_array",     // unsigned char *
                                                  "array_size",      // unsigned long long
                                                  "binary",          // unsigned long
                                                                         }},
-    {"ENT_errorPct",      (CAPL_FARCALL)ENT_errorPct,   "CAPL_DLL",
-                    "This function calculate the errorPct of input data",'F', 3, {'C', 'U', 'D'},
-                    "\001\000\000",             {"input_array",     // unsigned char *
+    {"ENT_errorPct",    (CAPL_FARCALL)ENT_errorPct,     "CAPL_DLL",
+                        "This function calculate the errorPct of input data",'F', 3, {'C', 'U', 'D'},
+                        "\001\000\000",         {"input_array",     // unsigned char *
                                                  "array_size",      // unsigned long long
                                                  "binary",          // unsigned long
                                                                         }},
