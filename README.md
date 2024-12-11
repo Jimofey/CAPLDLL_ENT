@@ -56,7 +56,7 @@ includes
 ## History
 | Version | Author |Date|Description|
 | --- | --- | --- | --- |
-| V1.0 | Jim.li2 |2024.12.10 | Innitial Version |
+| V1.0 | Jim.li2 | 12/10/2024 | Innitial Version |
 
 ## Contact
 Magna MMEC  
