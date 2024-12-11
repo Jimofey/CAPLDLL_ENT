@@ -52,10 +52,10 @@ RM = C:\Soft\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Work\CAPLDLL_ENT\CMakeProject
+CMAKE_SOURCE_DIR = "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\CMakeProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Work\CAPLDLL_ENT\build
+CMAKE_BINARY_DIR = "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/capldll.dir/depend.make
@@ -71,97 +71,97 @@ include CMakeFiles/capldll.dir/flags.make
 CMakeFiles/capldll.dir/codegen:
 .PHONY : CMakeFiles/capldll.dir/codegen
 
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.obj: CMakeFiles/capldll.dir/flags.make
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.obj: C:/Work/CAPLDLL_ENT/Sources/capldll.cpp
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.obj: CMakeFiles/capldll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Work\CAPLDLL_ENT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.obj"
-	C:\Soft\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.obj -MF CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\Sources\capldll.cpp.obj.d -o CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\Sources\capldll.cpp.obj -c C:\Work\CAPLDLL_ENT\Sources\capldll.cpp
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.obj: CMakeFiles/capldll.dir/flags.make
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.obj: C:/Users/jimli2/OneDrive\ -\ Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.obj: CMakeFiles/capldll.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.obj -MF CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\Sources\capldll.cpp.obj.d -o CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\Sources\capldll.cpp.obj -c "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\Sources\capldll.cpp"
 
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.i"
-	C:\Soft\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Work\CAPLDLL_ENT\Sources\capldll.cpp > CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\Sources\capldll.cpp.i
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\Sources\capldll.cpp" > CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\Sources\capldll.cpp.i
 
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.s"
-	C:\Soft\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Work\CAPLDLL_ENT\Sources\capldll.cpp -o CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\Sources\capldll.cpp.s
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\Sources\capldll.cpp" -o CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\Sources\capldll.cpp.s
 
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/ent.c.obj: CMakeFiles/capldll.dir/flags.make
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/ent.c.obj: C:/Work/CAPLDLL_ENT/src/ent.c
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/ent.c.obj: CMakeFiles/capldll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Work\CAPLDLL_ENT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/ent.c.obj"
-	C:\Soft\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/ent.c.obj -MF CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\src\ent.c.obj.d -o CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\src\ent.c.obj -c C:\Work\CAPLDLL_ENT\src\ent.c
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.obj: CMakeFiles/capldll.dir/flags.make
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.obj: C:/Users/jimli2/OneDrive\ -\ Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.obj: CMakeFiles/capldll.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.obj -MF CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\ent.c.obj.d -o CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\ent.c.obj -c "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\ent.c"
 
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/ent.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/ent.c.i"
-	C:\Soft\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Work\CAPLDLL_ENT\src\ent.c > CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\src\ent.c.i
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\ent.c" > CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\ent.c.i
 
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/ent.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/ent.c.s"
-	C:\Soft\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Work\CAPLDLL_ENT\src\ent.c -o CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\src\ent.c.s
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\ent.c" -o CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\ent.c.s
 
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/chisq.c.obj: CMakeFiles/capldll.dir/flags.make
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/chisq.c.obj: C:/Work/CAPLDLL_ENT/src/chisq.c
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/chisq.c.obj: CMakeFiles/capldll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Work\CAPLDLL_ENT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/chisq.c.obj"
-	C:\Soft\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/chisq.c.obj -MF CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\src\chisq.c.obj.d -o CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\src\chisq.c.obj -c C:\Work\CAPLDLL_ENT\src\chisq.c
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.obj: CMakeFiles/capldll.dir/flags.make
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.obj: C:/Users/jimli2/OneDrive\ -\ Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.obj: CMakeFiles/capldll.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.obj -MF CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\chisq.c.obj.d -o CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\chisq.c.obj -c "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\chisq.c"
 
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/chisq.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/chisq.c.i"
-	C:\Soft\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Work\CAPLDLL_ENT\src\chisq.c > CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\src\chisq.c.i
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\chisq.c" > CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\chisq.c.i
 
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/chisq.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/chisq.c.s"
-	C:\Soft\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Work\CAPLDLL_ENT\src\chisq.c -o CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\src\chisq.c.s
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\chisq.c" -o CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\chisq.c.s
 
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/iso8859.c.obj: CMakeFiles/capldll.dir/flags.make
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/iso8859.c.obj: C:/Work/CAPLDLL_ENT/src/iso8859.c
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/iso8859.c.obj: CMakeFiles/capldll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Work\CAPLDLL_ENT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/iso8859.c.obj"
-	C:\Soft\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/iso8859.c.obj -MF CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\src\iso8859.c.obj.d -o CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\src\iso8859.c.obj -c C:\Work\CAPLDLL_ENT\src\iso8859.c
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.obj: CMakeFiles/capldll.dir/flags.make
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.obj: C:/Users/jimli2/OneDrive\ -\ Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.obj: CMakeFiles/capldll.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.obj -MF CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\iso8859.c.obj.d -o CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\iso8859.c.obj -c "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\iso8859.c"
 
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/iso8859.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/iso8859.c.i"
-	C:\Soft\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Work\CAPLDLL_ENT\src\iso8859.c > CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\src\iso8859.c.i
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\iso8859.c" > CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\iso8859.c.i
 
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/iso8859.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/iso8859.c.s"
-	C:\Soft\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Work\CAPLDLL_ENT\src\iso8859.c -o CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\src\iso8859.c.s
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\iso8859.c" -o CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\iso8859.c.s
 
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/randtest.c.obj: CMakeFiles/capldll.dir/flags.make
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/randtest.c.obj: C:/Work/CAPLDLL_ENT/src/randtest.c
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/randtest.c.obj: CMakeFiles/capldll.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Work\CAPLDLL_ENT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/randtest.c.obj"
-	C:\Soft\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/randtest.c.obj -MF CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\src\randtest.c.obj.d -o CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\src\randtest.c.obj -c C:\Work\CAPLDLL_ENT\src\randtest.c
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.obj: CMakeFiles/capldll.dir/flags.make
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.obj: C:/Users/jimli2/OneDrive\ -\ Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.obj: CMakeFiles/capldll.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.obj -MF CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\randtest.c.obj.d -o CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\randtest.c.obj -c "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\randtest.c"
 
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/randtest.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/randtest.c.i"
-	C:\Soft\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Work\CAPLDLL_ENT\src\randtest.c > CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\src\randtest.c.i
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\randtest.c" > CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\randtest.c.i
 
-CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/randtest.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/randtest.c.s"
-	C:\Soft\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Work\CAPLDLL_ENT\src\randtest.c -o CMakeFiles\capldll.dir\C_\Work\CAPLDLL_ENT\src\randtest.c.s
+CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\randtest.c" -o CMakeFiles\capldll.dir\C_\Users\jimli2\OneDrive_-_Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\src\randtest.c.s
 
 # Object files for target capldll
 capldll_OBJECTS = \
-"CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.obj" \
-"CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/ent.c.obj" \
-"CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/chisq.c.obj" \
-"CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/iso8859.c.obj" \
-"CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/randtest.c.obj"
+"CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.obj" \
+"CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.obj" \
+"CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.obj" \
+"CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.obj" \
+"CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.obj"
 
 # External object files for target capldll
 capldll_EXTERNAL_OBJECTS =
 
-capldll.dll: CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/Sources/capldll.cpp.obj
-capldll.dll: CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/ent.c.obj
-capldll.dll: CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/chisq.c.obj
-capldll.dll: CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/iso8859.c.obj
-capldll.dll: CMakeFiles/capldll.dir/C_/Work/CAPLDLL_ENT/src/randtest.c.obj
+capldll.dll: CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/Sources/capldll.cpp.obj
+capldll.dll: CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/ent.c.obj
+capldll.dll: CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/chisq.c.obj
+capldll.dll: CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/iso8859.c.obj
+capldll.dll: CMakeFiles/capldll.dir/C_/Users/jimli2/OneDrive_-_Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/src/randtest.c.obj
 capldll.dll: CMakeFiles/capldll.dir/build.make
 capldll.dll: CMakeFiles/capldll.dir/linkLibs.rsp
 capldll.dll: CMakeFiles/capldll.dir/objects1.rsp
 capldll.dll: CMakeFiles/capldll.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Work\CAPLDLL_ENT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library capldll.dll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library capldll.dll"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\capldll.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -173,6 +173,6 @@ CMakeFiles/capldll.dir/clean:
 .PHONY : CMakeFiles/capldll.dir/clean
 
 CMakeFiles/capldll.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Work\CAPLDLL_ENT\CMakeProject C:\Work\CAPLDLL_ENT\CMakeProject C:\Work\CAPLDLL_ENT\build C:\Work\CAPLDLL_ENT\build C:\Work\CAPLDLL_ENT\build\CMakeFiles\capldll.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\CMakeProject" "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\CMakeProject" "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build" "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build" "C:\Users\jimli2\OneDrive - Magna\Documents\06_CyberSecurity\ENT\CAPLDLL_ENT\build\CMakeFiles\capldll.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/capldll.dir/depend
 

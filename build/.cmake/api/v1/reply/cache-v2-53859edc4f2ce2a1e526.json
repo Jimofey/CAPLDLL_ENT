@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Soft/mingw32/bin/addr2line.exe"
+			"value" : "C:/MinGW/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Soft/mingw32/bin/ar.exe"
+			"value" : "C:/MinGW/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Work/CAPLDLL_ENT/build"
+			"value" : "c:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -159,7 +159,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "C:/Soft/mingw32/bin/g++.exe"
+			"value" : "C:/MinGW/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -175,7 +175,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Soft/mingw32/bin/gcc-ar.exe"
+			"value" : "C:/MinGW/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -191,7 +191,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Soft/mingw32/bin/gcc-ranlib.exe"
+			"value" : "C:/MinGW/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -303,7 +303,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "C:/Soft/mingw32/bin/gcc.exe"
+			"value" : "C:/MinGW/bin/gcc.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -319,7 +319,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Soft/mingw32/bin/gcc-ar.exe"
+			"value" : "C:/MinGW/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -335,7 +335,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Soft/mingw32/bin/gcc-ranlib.exe"
+			"value" : "C:/MinGW/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -447,7 +447,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Soft/mingw32/bin/dlltool.exe"
+			"value" : "C:/MinGW/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EDIT_COMMAND",
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Work/CAPLDLL_ENT/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Work/CAPLDLL_ENT/CMakeProject"
+			"value" : "C:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/CMakeProject"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -687,7 +687,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Soft/mingw32/bin/ld.exe"
+			"value" : "C:/MinGW/bin/ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -703,7 +703,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Soft/mingw32/bin/mingw32-make.exe"
+			"value" : "C:/MinGW/bin/mingw32-make.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -799,7 +799,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Soft/mingw32/bin/nm.exe"
+			"value" : "C:/MinGW/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -827,7 +827,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Soft/mingw32/bin/objcopy.exe"
+			"value" : "C:/MinGW/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -843,7 +843,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Soft/mingw32/bin/objdump.exe"
+			"value" : "C:/MinGW/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -967,7 +967,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Soft/mingw32/bin/ranlib.exe"
+			"value" : "C:/MinGW/bin/ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -983,7 +983,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Soft/mingw32/bin/windres.exe"
+			"value" : "C:/MinGW/bin/windres.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1091,7 +1091,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Soft/mingw32/bin/readelf.exe"
+			"value" : "C:/MinGW/bin/readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1311,7 +1311,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Soft/mingw32/bin/strip.exe"
+			"value" : "C:/MinGW/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1355,7 +1355,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Work/CAPLDLL_ENT/build"
+			"value" : "C:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/build"
 		},
 		{
 			"name" : "CaplDllExample_IS_TOP_LEVEL",
@@ -1379,7 +1379,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Work/CAPLDLL_ENT/CMakeProject"
+			"value" : "C:/Users/jimli2/OneDrive - Magna/Documents/06_CyberSecurity/ENT/CAPLDLL_ENT/CMakeProject"
 		},
 		{
 			"name" : "_CMAKE_CXX_LINKER_PUSHPOP_STATE_SUPPORTED",

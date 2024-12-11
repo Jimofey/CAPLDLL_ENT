@@ -581,33 +581,132 @@ int32_t CAPLEXPORT CAPLPASCAL appAddValues64(int32_t val01, int32_t val02, int32
 }
 */
 
-unsigned char *input_array;
-size_t array_size;
-unsigned long binary;
-double *ent, *chisq, *mean, *montepi, *scc;
-double *chip, *compRate, *errorPct;
+
+double gEnt, gChisq, gMean, gMontepi, gScc;
+double gChip, gErrorPct;
+uint32_t gCompRate;
 
 /* Add user defined function */
-void CAPLEXPORT CAPLPASCAL ENT_VarTest1(
-    unsigned char *input_array, size_t array_size, unsigned long binary,
-    double *ent, double *chisq, double *mean, double *montepi, double *scc,
-    double *chip, double *compRate, double *errorPct
-
-)
+double CAPLEXPORT CAPLPASCAL ENT_ent(unsigned char *input_array, size_t array_size, unsigned long binary)
 {
+    double ent, chisq, mean, montepi, scc;
+    double chip, errorPct;
+    int    compRate;
 
-    *ent = 1;
-    *chisq = 2;
-    *mean = 3;
-    *montepi = 4;
-    *scc = 5;
-    *chip = 6;
-    *compRate = 7;
-    *errorPct = 8;
+    ENT(input_array, array_size, binary,
+        &ent, &chisq, &mean, &montepi, &scc,
+        &chip, &compRate, &errorPct);
 
+    gEnt = ent;
+
+    //free(input_array);
+    return gEnt;
 }
 
+double CAPLEXPORT CAPLPASCAL ENT_chisq(unsigned char *input_array, size_t array_size, unsigned long binary)
+{
+    double ent, chisq, mean, montepi, scc;
+    double chip, errorPct;
+    int    compRate;
 
+    ENT(input_array, array_size, binary,
+        &ent, &chisq, &mean, &montepi, &scc,
+        &chip, &compRate, &errorPct);
+
+    gChisq = chisq;
+
+    return gChisq;
+}
+
+double CAPLEXPORT CAPLPASCAL ENT_mean(unsigned char *input_array, size_t array_size, unsigned long binary)
+{
+    double ent, chisq, mean, montepi, scc;
+    double chip, errorPct;
+    int    compRate;
+
+    ENT(input_array, array_size, binary,
+        &ent, &chisq, &mean, &montepi, &scc,
+        &chip, &compRate, &errorPct);
+
+    gMean = mean;
+
+    return gMean;
+}
+
+double CAPLEXPORT CAPLPASCAL ENT_montepi(unsigned char *input_array, size_t array_size, unsigned long binary)
+{
+    double ent, chisq, mean, montepi, scc;
+    double chip, errorPct;
+    int    compRate;
+
+    ENT(input_array, array_size, binary,
+        &ent, &chisq, &mean, &montepi, &scc,
+        &chip, &compRate, &errorPct);
+
+    gMontepi = montepi;
+
+    return gMontepi;
+}
+
+double CAPLEXPORT CAPLPASCAL ENT_scc(unsigned char *input_array, size_t array_size, unsigned long binary)
+{
+    double ent, chisq, mean, montepi, scc;
+    double chip, errorPct;
+    int    compRate;
+
+    ENT(input_array, array_size, binary,
+        &ent, &chisq, &mean, &montepi, &scc,
+        &chip, &compRate, &errorPct);
+
+    gScc = scc;
+
+    return gScc;
+}
+
+double CAPLEXPORT CAPLPASCAL ENT_chip(unsigned char *input_array, size_t array_size, unsigned long binary)
+{
+    double ent, chisq, mean, montepi, scc;
+    double chip, errorPct;
+    int    compRate;
+
+    ENT(input_array, array_size, binary,
+        &ent, &chisq, &mean, &montepi, &scc,
+        &chip, &compRate, &errorPct);
+
+    gChip = chip;
+
+    return gChip;
+}
+
+size_t CAPLEXPORT CAPLPASCAL ENT_compRate(unsigned char *input_array, size_t array_size, unsigned long binary)
+{
+    double ent, chisq, mean, montepi, scc;
+    double chip, errorPct;
+    int    compRate;
+
+    ENT(input_array, array_size, binary,
+        &ent, &chisq, &mean, &montepi, &scc,
+        &chip, &compRate, &errorPct);
+
+    gCompRate = (uint32_t)compRate;
+
+    return gCompRate;
+}
+
+double CAPLEXPORT CAPLPASCAL ENT_errorPct(unsigned char *input_array, size_t array_size, unsigned long binary)
+{
+    double ent, chisq, mean, montepi, scc;
+    double chip, errorPct;
+    int    compRate;
+
+    ENT(input_array, array_size, binary,
+        &ent, &chisq, &mean, &montepi, &scc,
+        &chip, &compRate, &errorPct);
+
+    gErrorPct = errorPct;
+
+    return gErrorPct;
+}
 
 
 /* Add user defined function */
@@ -615,8 +714,7 @@ void CAPLEXPORT CAPLPASCAL ENT_VarTest1(
 // ============================================================================
 // CAPL_DLL_INFO_LIST : list of exported functions
 //   The first field is predefined and mustn't be changed!
-//   The list has to end with a {0,0} entry!
-// New struct supporting function names with up to 50 characters
+//   The list has to end with a {0,0} entry!CAPL_DLL_INFO4ers
 // ============================================================================
 CAPL_DLL_INFO4 table[] = {
     {CDLL_VERSION_NAME, (CAPL_FARCALL)CDLL_VERSION, "", "", CAPL_DLL_CDECL, 0xabcd, CDLL_EXPORT},
@@ -661,6 +759,7 @@ CAPL_DLL_INFO4 table[] = {
     // Refer to: file:///C:/Program%20Files/Vector%20CANoe%2015/Help01/CANoeCANalyzerHTML5/CANoeCANalyzer.htm#Topics/CANoeCANalyzer/CAPL/CAPLExportTable.htm
     // Refer to: https://zhuanlan.zhihu.com/p/97807800
     
+    /*
     {"ENTCalculate",    (CAPL_FARCALL)ENT,                "CAPL_DLL",
                         "This function calculate the randomness of input data",'V', 11, {'C', 'U', 'D', 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128},
                         "\001\000\000\000\000\000\000\000\000\000\000", {"input_array",     // unsigned char *
@@ -675,20 +774,55 @@ CAPL_DLL_INFO4 table[] = {
                                                                          "compRate",        // double *
                                                                          "errorPct"         // double *
                                                                         }},
+    */
     
-    {"ENTVar",    (CAPL_FARCALL)ENT_VarTest1,                "CAPL_DLL",
-                        "This function calculate the randomness of input data",'V', 11, {'C', 'U', 'D', 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128, 'F'-128},
-                        "\001\000\000\000\000\000\000\000\000\000\000", {"input_array",     // unsigned char *
-                                                                         "array_size",      // unsigned long long
-                                                                         "binary",          // unsigned long
-                                                                         "ent",             // double *
-                                                                         "chisq",           // double *
-                                                                         "mean",            // double *
-                                                                         "montepi",         // double *
-                                                                         "scc",             // double *
-                                                                         "chip",            // double *
-                                                                         "compRate",        // double *
-                                                                         "errorPct"         // double *
+    {"ENT_ent",         (CAPL_FARCALL)ENT_ent,          "CAPL_DLL",
+                        "This function calculate the ent of input data",'F', 3, {'C', 'U', 'D'},
+                        "\001\000\000",         {"input_array",     // unsigned char *
+                                                 "array_size",      // unsigned long long
+                                                 "binary",          // unsigned long
+                                                                        }},
+    {"ENT_chisq",       (CAPL_FARCALL)ENT_chisq,        "CAPL_DLL",
+                        "This function calculate the chisq of input data",'F', 3, {'C', 'U', 'D'},
+                        "\001\000\000",         {"input_array",     // unsigned char *
+                                                 "array_size",      // unsigned long long
+                                                 "binary",          // unsigned long
+                                                                        }},
+    {"ENT_mean",      (CAPL_FARCALL)ENT_mean,           "CAPL_DLL",
+                    "This function calculate the mean of input data",'F', 3, {'C', 'U', 'D'},
+                    "\001\000\000",             {"input_array",     // unsigned char *
+                                                 "array_size",      // unsigned long long
+                                                 "binary",          // unsigned long
+                                                                        }},
+    {"ENT_montepi",      (CAPL_FARCALL)ENT_montepi,     "CAPL_DLL",
+                    "This function calculate the montepi of input data",'F', 3, {'C', 'U', 'D'},
+                    "\001\000\000",             {"input_array",     // unsigned char *
+                                                 "array_size",      // unsigned long long
+                                                 "binary",          // unsigned long
+                                                                        }},
+    {"ENT_scc",      (CAPL_FARCALL)ENT_scc,             "CAPL_DLL",
+                    "This function calculate the scc of input data",'F', 3, {'C', 'U', 'D'},
+                    "\001\000\000",             {"input_array",     // unsigned char *
+                                                 "array_size",      // unsigned long long
+                                                 "binary",          // unsigned long
+                                                                        }},
+    {"ENT_chip",      (CAPL_FARCALL)ENT_chip,           "CAPL_DLL",
+                    "This function calculate the chip of input data",'F', 3, {'C', 'U', 'D'},
+                    "\001\000\000",             {"input_array",     // unsigned char *
+                                                 "array_size",      // unsigned long long
+                                                 "binary",          // unsigned long
+                                                                        }},
+    {"ENT_compRate",      (CAPL_FARCALL)ENT_compRate,   "CAPL_DLL",
+                    "This function calculate the compRate of input data",'D', 3, {'C', 'U', 'D'},
+                    "\001\000\000",             {"input_array",     // unsigned char *
+                                                 "array_size",      // unsigned long long
+                                                 "binary",          // unsigned long
+                                                                        }},
+    {"ENT_errorPct",      (CAPL_FARCALL)ENT_errorPct,   "CAPL_DLL",
+                    "This function calculate the errorPct of input data",'F', 3, {'C', 'U', 'D'},
+                    "\001\000\000",             {"input_array",     // unsigned char *
+                                                 "array_size",      // unsigned long long
+                                                 "binary",          // unsigned long
                                                                         }},
 
     /* Add user functions below */
