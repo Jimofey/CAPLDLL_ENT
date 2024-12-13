@@ -17,7 +17,11 @@ This project is to include ENT to CAPL dll.
    i686-14.2.0-release-posix-dwarf-ucrt-rt_v12-rev0.7z  
     https://github.com/niXman/mingw-builds-binaries/releases?page=1
 3. Install CMake, latest Win64 version.
-4. Open project, then intall the extensions by following the tips.
+4. As environment path needed, we can add from below commands to avoid admin rights:
+   ```cmd
+   rundll32.exe sysdm.cpl,EditEnvironmentVariables
+   ```
+5. Open project, then intall the extensions and redirect the tool path by following the tips.
 
 ## Functions
 - ENT_ent((char)dataBuffer, (qword)dataBufferLength, (dword)Binary): double  
@@ -53,10 +57,14 @@ includes
 }  
 ```
 
+## Contributor
+1. Fourmilab https://www.fourmilab.ch/
+2. Vector https://www.vector.com/
+
 ## History
 | Version | Author |Date|Description|
 | --- | --- | --- | --- |
-| V1.0 | Jim.li2 | 12/10/2024 | Innitial Version |
+| v1.0 | Jim.li2 | 12/10/2024 | Innitial Version |
 
 ## Contact
 Magna MMEC  
